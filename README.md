@@ -1,5 +1,4 @@
-# Entropy-Aware Dynamic KV Cache Sparsification   
-for Autoregressive Image Generation and Editing
+# Entropy-Aware Dynamic KV Cache Sparsification for Autoregressive Image Generation and Editing
 # Abstract
 >Autoregressive (AR) image generation has recently gained momentum as a scalable alternative to diffusion models, benefiting from unified next-token prediction paradigm and strong instruction following ability. 
 However, AR visual generation must decode excessively long sequences of visual tokens, making inference heavily bottlenecked by the memory footprint and latency of the self-attention KV cache. 
